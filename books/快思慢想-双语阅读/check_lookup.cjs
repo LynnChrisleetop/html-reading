@@ -1,0 +1,12 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const source=fs.readFileSync(__dirname+'/template.html','utf8');
+const code=source.slice(source.indexOf('function lookupRanges('),source.indexOf('function decorateLookups('));
+const ctx={};vm.createContext(ctx);vm.runInContext(code,ctx);
+const history={he:{word:'he'},impression:{word:'impression'},impressions:{word:'impression'},'slow thinking':{word:'slow thinking'}};
+const text='The theme: HE has impressions; impression. Slow\nthinking.';
+const hits=ctx.lookupRanges(text,history).map(r=>text.slice(r.start,r.end));
+assert.deepStrictEqual(Array.from(hits),['HE','impressions','impression','Slow\nthinking']);
+assert.equal(ctx.lookupRanges("he's there",{he:{word:'he'}}).length,0);
+assert.equal(ctx.lookupRanges('slow thinking',{'slow thinking':{word:'slow thinking'},thinking:{word:'thinking'}}).length,1);
+assert.equal(ctx.lookupRanges('hello',undefined).length,0);
+console.log('PASS: whole-word boundaries, case folding, phrases, overlapping terms, legacy empty history.');

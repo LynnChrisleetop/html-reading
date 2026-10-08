@@ -1,0 +1,13 @@
+.deps/
+node_modules/
+sample.png
+template.png
+contact-*.jpg
+candidates.json
+ocr-results.json
+*.log
+extra*.json
+extra-*.jpg
+label-template.png
+extra2-contact.jpg
+.qa/

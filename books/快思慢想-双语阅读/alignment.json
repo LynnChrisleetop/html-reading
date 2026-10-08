@@ -1,0 +1,156 @@
+[
+  {
+    "id": "ch01-b01",
+    "title": "Fast and slow",
+    "zhTitle": "快与慢的初体验",
+    "words": 419,
+    "enRange": [
+      3,
+      11
+    ],
+    "zhRange": [
+      1,
+      8
+    ]
+  },
+  {
+    "id": "ch01-b02",
+    "title": "Meet the two systems",
+    "zhTitle": "认识两个系统",
+    "words": 386,
+    "enRange": [
+      11,
+      18
+    ],
+    "zhRange": [
+      8,
+      15
+    ]
+  },
+  {
+    "id": "ch01-b03",
+    "title": "Automatic skills",
+    "zhTitle": "自动化技能与注意力",
+    "words": 300,
+    "enRange": [
+      18,
+      20
+    ],
+    "zhRange": [
+      15,
+      17
+    ]
+  },
+  {
+    "id": "ch01-b04",
+    "title": "Effort and attention",
+    "zhTitle": "需要努力的系统二",
+    "words": 312,
+    "enRange": [
+      20,
+      23
+    ],
+    "zhRange": [
+      17,
+      20
+    ]
+  },
+  {
+    "id": "ch01-b05",
+    "title": "The limits of attention",
+    "zhTitle": "注意力的限度",
+    "words": 457,
+    "enRange": [
+      23,
+      26
+    ],
+    "zhRange": [
+      20,
+      23
+    ]
+  },
+  {
+    "id": "ch01-b06",
+    "title": "How the systems cooperate",
+    "zhTitle": "两个系统如何合作",
+    "words": 525,
+    "enRange": [
+      26,
+      30
+    ],
+    "zhRange": [
+      23,
+      27
+    ]
+  },
+  {
+    "id": "ch01-b07",
+    "title": "Conflict and self-control",
+    "zhTitle": "冲突与自我控制",
+    "words": 410,
+    "enRange": [
+      30,
+      37
+    ],
+    "zhRange": [
+      27,
+      33
+    ]
+  },
+  {
+    "id": "ch01-b08",
+    "title": "Seeing and believing",
+    "zhTitle": "看见与相信",
+    "words": 260,
+    "enRange": [
+      37,
+      43
+    ],
+    "zhRange": [
+      33,
+      38
+    ]
+  },
+  {
+    "id": "ch01-b09",
+    "title": "Cognitive illusions",
+    "zhTitle": "认知错觉",
+    "words": 486,
+    "enRange": [
+      43,
+      46
+    ],
+    "zhRange": [
+      38,
+      41
+    ]
+  },
+  {
+    "id": "ch01-b10",
+    "title": "Useful fictions",
+    "zhTitle": "有用的拟人叙述",
+    "words": 281,
+    "enRange": [
+      46,
+      50
+    ],
+    "zhRange": [
+      41,
+      44
+    ]
+  },
+  {
+    "id": "ch01-b11",
+    "title": "Names, characters, and reflection",
+    "zhTitle": "虚构角色与本章回顾",
+    "words": 360,
+    "enRange": [
+      50,
+      54
+    ],
+    "zhRange": [
+      44,
+      50
+    ]
+  }
+]
